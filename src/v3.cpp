@@ -59,7 +59,7 @@ int main() {
         cout << "13.- Trivia Questions\n";
         cout << "14.- Multiplication table of n\n";
         cout << "15.- Number guessing game \n";
-        cout << "16.- FPS Game \n";
+        cout << "16.- DINO Game \n";
         cout << "17.- Rock paper scissors \n";
         cout << "20. Exit\n";
 
@@ -128,7 +128,7 @@ int main() {
 
             default:
                 cout << "Please, this option does not exist. \n";
-                break;
+                choice = 20;
         }
     } while (choice != 20);
 
